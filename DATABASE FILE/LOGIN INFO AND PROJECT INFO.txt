@@ -1,0 +1,28 @@
+**** DATABASE NAME - carrental ****
+**** DEVELOPED BY - Harsh Sharma
+
+LOGIN INFO ->
+***** CUSTUMER LOGIN DETAILS *****
+
+username - Amit
+password - amit@123
+
+username - Mayank
+password - manyank@123
+
+username - Aditya
+password - aditya@123
+
+username - preet
+password - preet@123
+
+****** EMPLOYEE LOGIN DETAILS ********
+
+username - harsh
+password - harsh
+
+username - karan
+password - karan
+
+username - himanshu
+password - himanshu
