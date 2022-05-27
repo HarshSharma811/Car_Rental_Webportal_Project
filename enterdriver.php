@@ -36,15 +36,19 @@ include('session_client.php'); ?>
                         <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_client']; ?></a>
+                        <a href="index.php"><span class="glyphicon glyphicon-user"></span>
+                            Welcome <?php echo $_SESSION['login_client']; ?></a>
                     </li>
                     <li>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Control Panel <span class="caret"></span> </a>
+                            <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true" aria-expanded="false"><span
+                                            class="glyphicon glyphicon-user"></span> Control Panel <span
+                                            class="caret"></span> </a>
                                 <ul class="dropdown-menu">
-                                    <li> <a href="entercar.php">Add Car</a></li>
-                                    <li> <a href="enterdriver.php"> Add Driver</a></li>
-                                    <li> <a href="clientview.php">View</a></li>
+                                    <li><a href="entercar.php">Add Car</a></li>
+                                    <li><a href="enterdriver.php"> Add Driver</a></li>
+                                    <li><a href="clientview.php">View</a></li>
 
                                 </ul>
                             </li>

@@ -67,10 +67,11 @@ include('session_client.php'); ?>
                         <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_customer']; ?></a>
+                        <a href="index.php"><span class="glyphicon glyphicon-user"></span>
+                            Welcome <?php echo $_SESSION['login_customer']; ?></a>
                     </li>
                     <li>
-                        <a href="#">History</a>
+                        <a href="index.php">History</a>
                     </li>
                     <li>
                         <a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
@@ -95,7 +96,7 @@ include('session_client.php'); ?>
                         <a href="customerlogin.php">Customer</a>
                     </li>
                     <li>
-                        <a href="#"> FAQ </a>
+                        <a href="faq/index.php"> FAQ </a>
                     </li>
                 </ul>
             </div>
