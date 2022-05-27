@@ -1,9 +1,9 @@
 <html>
 
 <head>
-    <title> Employee Signup | Car Rentals  </title>
+    <title> Employee Signup | Car Rentals </title>
 </head>
-<link rel="shortcut icon" type="image/png" href="assets/img/P.png.png">
+<link rel="shortcut icon" type="image/png" href="assets/img/titleLogoImage.png.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -88,7 +88,7 @@
                         <a href="customerlogin.php">Customer</a>
                     </li>
                     <li>
-                        <a href="#"> FAQ </a>
+                        <a href="faq/index.php"> FAQ </a>
                     </li>
                 </ul>
             </div>

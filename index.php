@@ -9,7 +9,6 @@ $conn = Connect();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Rentals</title>
-<!--    <link rel="shortcut icon" type="image/png" href="assets/img/P.png">-->
     <link rel="shortcut icon" type="image/png" href="assets/img/titleLogoImage.png.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -43,7 +42,7 @@ $conn = Connect();
                         <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="index.php"><span class="glyphicon glyphicon-user"></span>
+                        <a href="#"><span class="glyphicon glyphicon-user"></span>
                             Welcome <?php echo $_SESSION['login_client']; ?></a>
                     </li>
                     <li>
@@ -77,13 +76,15 @@ $conn = Connect();
                         <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_customer']; ?></a>
+                        <a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_customer']; ?>
+                        </a>
                     </li>
                     <ul class="nav navbar-nav">
-                        <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Garagge <span class="caret"></span> </a>
+                        <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false"> Garagge <span class="caret"></span> </a>
                             <ul class="dropdown-menu">
-                                <li> <a href="">Return Now</a></li> <!-- prereturncar.php -->
-                                <li> <a href=""> My Bookings</a></li> <!-- mybookings.php -->
+                                <li><a href="prereturncar.php">Return Now</a></li>
+                                <li><a href="mybookings.php"> My Bookings</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -107,7 +108,7 @@ $conn = Connect();
                         <a href="clientlogin.php">Employee</a>
                     </li>
                     <li>
-                        <a href="#">Customer</a> <!--customerlogin.php-->
+                        <a href="customerlogin.php">Customer</a>
                     </li>
                     <li>
                         <a href="faq/index.php"> FAQ </a>

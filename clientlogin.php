@@ -11,7 +11,7 @@ if(isset($_SESSION['login_client'])){
 
 <head>
     <title> Employee Login | Car Rental </title>
-    <link rel="shortcut icon" type="image/png" href="assets/img/P.png.png">
+    <link rel="shortcut icon" type="image/png" href="assets/img/titleLogoImage.png.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -97,7 +97,7 @@ if(isset($_SESSION['login_client'])){
                         <a href="clientlogin.php">Employee</a>
                     </li>
                     <li>
-                        <a href="#">Customer</a> <!-- customerlogin.php -->
+                        <a href="customerlogin.php">Customer</a>
                     </li>
                     <li>
                         <a href="faq\index.php"> FAQ </a>

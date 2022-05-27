@@ -1,8 +1,11 @@
-
 <!DOCTYPE html>
 <html>
 <?php
-include('session_client.php'); ?>
+include('session_client.php');
+require 'connection.php';
+$conn = Connect();
+?>
+
 <head>
     <link rel="shortcut icon" type="image/png" href="assets/img/titleLogoImage.png.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -62,7 +65,7 @@ include('session_client.php'); ?>
 
             <?php
         }
-        else if (isset($_SESSION['login_customer'])){
+        else if (isset($_SESSION['login_customer'])) {
             ?>
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
@@ -70,7 +73,8 @@ include('session_client.php'); ?>
                         <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_customer']; ?></a>
+                        <a href="index.php"><span class="glyphicon glyphicon-user"></span>
+                            Welcome <?php echo $_SESSION['login_customer']; ?></a>
                     </li>
                     <li>
                         <a href="#">History</a>
@@ -98,7 +102,7 @@ include('session_client.php'); ?>
                         <a href="customerlogin.php">Customer</a>
                     </li>
                     <li>
-                        <a href="#"> FAQ </a>
+                        <a href="faq/index.php"> FAQ </a>
                     </li>
                 </ul>
             </div>

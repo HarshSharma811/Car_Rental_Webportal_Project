@@ -98,7 +98,7 @@ $conn = Connect();
                         <a href="clientlogin.php">Employee</a>
                     </li>
                     <li>
-                        <a href="#">Customer</a> <!-- customerlogin.php -->
+                        <a href="customerlogin.php">Customer</a>
                     </li>
                     <li>
                         <a href="#"> FAQ </a>

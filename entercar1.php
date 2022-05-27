@@ -3,7 +3,9 @@
 <head>
     <title> customer Signup | Car Rentals </title>
 </head>
-<?php session_start(); ?>
+<?php session_start();
+require 'connection.php';
+$conn = Connect(); ?>
 <link rel="shortcut icon" type="image/png" href="assets/img/titleLogoImage.png.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
